@@ -27,3 +27,5 @@ match ErrorMsg '\s\+$'
 
 nnoremap <leader><space> :nohlsearch<CR>
 inoremap <c-[> <esc>
+nnoremap <c-t> :tabnew<CR>
+inoremap <c-t> <esc>:tabnew<CR>
