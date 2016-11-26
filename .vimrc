@@ -15,9 +15,15 @@ call vundle#end()
 filetype plugin indent on
 syntax enable
 
-set shiftwidth=4
-set textwidth=0
-set nocindent
+set background=dark
+set linebreak
+set autoindent
+set expandtab
+set tabstop=8
+set shiftwidth=2
+set backspace=2
+set columns=86
+set textwidth=78
 
 set relativenumber
 set showmatch
